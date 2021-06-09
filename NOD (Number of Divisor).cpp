@@ -16,5 +16,6 @@ int main()
         }
         ans *= cnt;
     }
+    if(n>1) ans*=2;
     cout << ans << endl;
 }
