@@ -16,7 +16,7 @@ int main()
             cnt[i]++;
         }
     }
-    if(n>2) cnt[n]++;
+    if(n>1) cnt[n]++;
     for(it = cnt.begin(); it!=cnt.end(); it++)
     {
         int x = it->first;
